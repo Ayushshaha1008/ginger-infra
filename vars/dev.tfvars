@@ -13,7 +13,7 @@ eks_project            = "ginger"
 eks_desired_nodes      = 2
 eks_max_nodes          = 2
 eks_min_nodes          = 2
-eks_node_instance_type = "t3.medium"
+eks_node_instance_type = "c7i-flex.large"
 
 # S3 Variables
 s3_bucket_name = "ginger-frontend-buzz"
