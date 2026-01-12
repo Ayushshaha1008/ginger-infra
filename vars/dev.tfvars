@@ -1,5 +1,5 @@
 environment = "dev"
-aws_region = "us-east-2"
+aws_region = "eu-north-1"
 
 # RDS Variables
 rds_instance_class        = "db.t3.micro"
@@ -16,5 +16,5 @@ eks_min_nodes          = 2
 eks_node_instance_type = "t3.medium"
 
 # S3 Variables
-s3_bucket_name = "ginger-frontend-bux"
-s3_environment = "dev" 
+s3_bucket_name = "ginger-frontend-buzz"
+s3_environment = "dev"

@@ -1,9 +1,10 @@
 terraform {
     backend "s3" {
-        bucket = "ginger-infra"
-        region = "us-east-2"
+        bucket = "ginger-infras"
+        region = " eu-north-1"
         key = "terraform.tfstate"
     }
+    
 }
 
 provider "aws" {
