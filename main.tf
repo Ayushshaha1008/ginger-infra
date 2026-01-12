@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "ginger-infras"
-        region = " eu-north-1"
+        region = "eu-north-1"
         key = "terraform.tfstate"
     }
     
